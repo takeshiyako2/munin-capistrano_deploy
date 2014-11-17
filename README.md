@@ -1,6 +1,7 @@
 ## How to setup
 
-```sh
+```
+# curl https://raw.githubusercontent.com/takeshiyako2/munin-capistrano_deploy/master/capistrano_deploy -O /usr/share/munin/plugins/capistrano_deploy
 # ln -s /usr/share/munin/plugins/capistrano_deploy /etc/munin/plugins/capistrano_deploy
 # emacs /etc/munin/plugin-conf.d/munin-node
 [capistrano_deploy]
