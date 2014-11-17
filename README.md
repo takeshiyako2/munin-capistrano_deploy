@@ -1,4 +1,4 @@
-This is munin plugin for count of Capistrano(v3) deploy count of day.
+This is munin plugin for count of Capistrano(v3) deploy of day.
 
 
 # How to setup
