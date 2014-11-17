@@ -38,10 +38,13 @@ if [ "$1" = "config" ]; then
         echo 'graph_category system'
         echo 'capistrano_deploy.label count'
         echo 'capistrano_deploy.draw AREA'
+        print_warning capistrano_deploy
+        print_critical capistrano_deploy
         exit 0
 fi
 
 REVISIONS_LOG=${log}
 TODAY=`date '+%Y%m%d'`
 COUNT=`grep "$TODAY" $REVISIONS_LOG | wc -l`
-printf "count.value $COUNT\n"
+printf "capistrano_deploy.value $COUNT\n"
+
