@@ -11,10 +11,9 @@ This is munin plugin for count of Capistrano(v3) deploy count of day.
 # emacs /etc/munin/plugin-conf.d/munin-node
 [capistrano_deploy]
 env.log /home/<you>/<your app>/revisions.log
-# service munin-node restart
-# cd /etc/munin/plugins/
 # munin-run capistrano_deploy
 count.value 2
+# service munin-node restart
 ```
 
 
