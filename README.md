@@ -1,6 +1,9 @@
 This is munin plugin for count of Capistrano(v3) deploy of day.
 
 
+![munin-capistrano_deploy example](https://raw.githubusercontent.com/takeshiyako2/munin-capistrano_deploy/master/images/example.png "munin-capistrano_deploy example")
+
+
 # How to setup
 
 ```
